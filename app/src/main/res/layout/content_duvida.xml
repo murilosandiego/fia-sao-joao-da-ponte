@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="br.com.murilosandiego.fiasaojooadaponte.DuvidaActivity"
+    tools:showIn="@layout/activity_duvida">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/text_margin"
+            android:layout_marginRight="@dimen/text_margin"
+            android:layout_marginStart="@dimen/text_margin"
+            android:layout_marginTop="@dimen/text_margin"
+            android:text="PERGUNTAS E RESPOSTAS:"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/text_margin"
+            android:layout_marginRight="@dimen/text_margin"
+            android:layout_marginStart="@dimen/text_margin"
+            android:layout_marginTop="@dimen/text_margin"
+            android:text="- O que é o Fundo Especial para Infância e Adolescência - FIA?"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/text_margin"
+            android:text="Trata-se de um fundo especial que deve ser criado por lei para captar recursos que serão destinados especificamente para área da infância e adolescência, tendo a finalidade específica de financiar programas, projetos e ações voltados para a promoção e a defesa dos direitos da criança e do adolescente e suas respectivas famílias. É composto por um conjunto de receitas (recursos financeiros depositados em uma ou várias contas bancárias), as quais são investidas a partir da deliberação dos Conselhos de Direitos da Criança e do Adolescente. Em âmbito municipal, o FIA é gerido pelo CMDCA, com o apoio (administrativo) dos órgãos encarregados do planejamento e finanças do município, seguindo as regras da Lei nº 4.320/64, bem como as demais normas relativas à gestão de recursos públicos. Algumas de suas fontes de receita são previstas pelo próprio ECA, como é o caso das multas administrativas aplicadas em razão da prática de algumas das infrações tipificadas nos arts. 245 a 258, do ECA (cf. arts. 154 c/c 214, do ECA), das multas impostas em sede de ação civil pública (cf. art. 214, do ECA) e as chamadas “doações subsidiadas” de pessoas físicas ou jurídicas, previstas no art. 260, caput, do ECA, que poderão ser deduzidas do imposto de renda dos doadores até o limite legal de 1% para pessoa jurídica e 6% para pessoa física. "
+            android:textSize="14sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/text_margin"
+            android:layout_marginRight="@dimen/text_margin"
+            android:layout_marginStart="@dimen/text_margin"
+            android:layout_marginTop="@dimen/text_margin"
+            android:text="- Qual a importância do Fundo Especial para Infância e Adolescência - FIA para o custeio da política de atendimento à criança e ao adolescente?"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/text_margin"
+            android:text="Os recursos captados pelo FIA servem de complemento aos recursos orçamentários que, na forma da lei (arts. 4º, caput e par. único, alínea “d”, 90, §2º e 100, par. único, inciso III, do ECA), devem ser canalizados para o atendimento da população infanto-juvenil com a mais absoluta prioridade. Embora a eventual inexistência de recursos no FIA municipal não impeça a implementação da política de atendimento à criança e ao adolescente, nem desobrigue o Poder Público do cumprimento de seus deveres legais e constitucionais para população infanto-juvenil local, a capitalização do fundo permite a ampliação dos programas, serviços e metas por eles atendidas, servindo assim para a melhoria da estrutura de atendimento existente. "
+            android:textSize="14sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/text_margin"
+            android:layout_marginRight="@dimen/text_margin"
+            android:layout_marginStart="@dimen/text_margin"
+            android:layout_marginTop="@dimen/text_margin"
+            android:text="- A quem incumbe gerir o FIA e decidir sobre a destinação dos recursos por ele captados?"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/text_margin"
+            android:text="Consoante acima ventilado, a gestão do FIA municipal é de competência do CMDCA (art. 88, inciso IV, do ECA), sem prejuízo da possibilidade de utilização da estrutura administrativa da Prefeitura para sua operacionalização. A forma de utilização dos recursos captados pelo FIA deve estar prevista, em linhas gerais, pela Lei Municipal que o criou, cabendo ao CMDCA, dentro dos parâmetros legais estabelecidos, definir quais os programas que serão beneficiados. Importante não perder de vista que os recursos captados pelo FIA são recursos públicos que, como tal, estão sujeitos às mesmas normas e princípios relativos à implementação dos recursos públicos em geral. A seleção dos projetos a serem contemplados com recursos do FIA, portanto, deve ser a mais criteriosa e transparente possível, não sendo admissível sua utilização para a manutenção das entidades que os executam (cf. art. 90, caput, do ECA), o que compreende o pagamento dos salários de seus dirigentes. Cabe ao CMDCA protagonizar o direcionamento dos recursos captados pelo FIA para o atendimento das demandas mais problemáticas e complexas existentes no município, e não aguardar, passivamente, o envio de projetos pelas entidades. Os recursos captados pelo FIA, preferencialmente, devem ser utilizados para sanar as falhas existentes na “Rede de Proteção à Criança e ao Adolescente” que, na forma da lei, todo município tem o dever de implementar."
+            android:textSize="14sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/text_margin"
+            android:layout_marginRight="@dimen/text_margin"
+            android:layout_marginStart="@dimen/text_margin"
+            android:layout_marginTop="@dimen/text_margin"
+            android:text="- Faço minha declaração pelo Formulário Completo e estou interessado em destinar recursos para o Fundo, como fazer?"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/text_margin"
+            android:text="@string/doacao"
+            android:textSize="14sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/text_margin"
+            android:layout_marginRight="@dimen/text_margin"
+            android:layout_marginStart="@dimen/text_margin"
+            android:layout_marginTop="@dimen/text_margin"
+            android:text="- Como comprovo o depósito realizado ao Fundo para a Receita Federal?"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/text_margin"
+            android:text="Após a concretização do depósito, solicite ao Conselho de Direitos da Criança e do Adolescente o recibo da destinação. O recibo emitido pelo Conselho é o seu comprovante junto à Receita Federal."
+            android:textSize="14sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/text_margin"
+            android:layout_marginRight="@dimen/text_margin"
+            android:layout_marginStart="@dimen/text_margin"
+            android:layout_marginTop="@dimen/text_margin"
+            android:text="- É possível doar bens para o Fundo?"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/text_margin"
+            android:text="
+Sim. A destinação de recursos, via incentivo fiscal, para o Fundo dos Direitos da Criança e do Adolescente pode ser monetária (depósito em conta) ou por meio da doação de bens/produtos. A dedução no ato da declaração de ajuste anual, no entanto, somente pode ser efetuada em espécie e, em qualquer caso, a renúncia fiscal não é permitida com a doação de serviços."
+            android:textSize="14sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/text_margin"
+            android:layout_marginRight="@dimen/text_margin"
+            android:layout_marginStart="@dimen/text_margin"
+            android:layout_marginTop="@dimen/text_margin"
+            android:text="- É possível escolher o projeto que receberá o recurso destinado ao Fundo?"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/text_margin"
+            android:text="Não. Os Conselhos têm autonomia para decidir sobre a forma de utilização dos recursos arrecadados pelo Fundo. Alguns Conselhos, no entanto, permitem que o destinador indique, entre projetos pré-aprovados, aquele que gostaria ver contemplado com o recurso investido. Esta indicação, no entanto, não obriga o Conselho de Direitos, pois uma vez que o recurso ingressa no Fundo, torna-se recurso público que, como tal, deve ser utilizado segundo as regras e princípios que regem a aplicação dos recursos públicos em geral, dentre os quais se encontra o princípio da impessoalidade, o que impede semelhante indicação prévia. De qualquer modo, todo cidadão pode acompanhar e mesmo participar do processo de definição de quais projetos e/ou áreas de atuação serão contemplados com recursos do Fundo. As reuniões dos Conselhos de Direitos são abertas à população e o órgão é um espaço de democracia participativa por excelência."
+            android:textSize="14sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/text_margin"
+            android:layout_marginRight="@dimen/text_margin"
+            android:layout_marginStart="@dimen/text_margin"
+            android:layout_marginTop="@dimen/text_margin"
+            android:text="- Para onde vai o Imposto de Renda, caso não seja realizada a destinação ao Fundo?"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/text_margin"
+            android:text="Para o caixa único da União, de onde o recurso é repartido para as políticas coordenadas pelo Governo Federal, como a saúde, educação, infra-estrutura além de gastos com manutenção da máquina pública. Sobre esse aspecto, é importante destacar a oportunidade que o Fundo representa de municipalização e otimização de recursos. Ao invés de viajarem pela burocracia estatal, o dinheiro pode ser investido com maior agilidade em projetos locais de proteção aos direitos da infância e da adolescência. "
+            android:textSize="14sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/text_margin"
+            android:layout_marginRight="@dimen/text_margin"
+            android:layout_marginStart="@dimen/text_margin"
+            android:layout_marginTop="@dimen/text_margin"
+            android:text="- Posso destinar o recurso para qualquer Fundo?"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/text_margin"
+            android:text="Sim. A legislação permite a escolha do Fundo que vai receber o recurso, seja ele municipal, estadual ou nacional. Outra informação importante é a possibilidade de destinar recursos para mais de um Fundo, desde que o valor total não ultrapasse o limite de 1% do IR devido, no caso das empresas, e de 6% para pessoa física."
+            android:textSize="14sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/text_margin"
+            android:layout_marginRight="@dimen/text_margin"
+            android:layout_marginStart="@dimen/text_margin"
+            android:layout_marginTop="@dimen/text_margin"
+            android:text="- Qual é a diferença entre Imposto de Renda Devido, Imposto de Renda a Pagar e Imposto de Renda a Receber?"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/text_margin"
+            android:text="Imposto de Renda Devido (IRD) - É o valor total do imposto calculado com base no rendimento mensal do contribuinte. Só pagam o Imposto de Renda aqueles trabalhadores que têm salário acima de R$ 1.257,12. Para a faixa salarial de R$ 1.257,13 até R$ 2.512,08, a alíquota do IR é de 15%. Para quem recebe acima de R$ 2.512,08, a alíquota é de 27,5% do rendimento bruto.
+Imposto de Renda a Pagar e a Receber
+Durante o ano, seja em desconto direto na folha ou no carnê-leão, são descontados valores referentes ao pagamento do IR. Se durante o ano você pagou R$1.000,00 (favor considerar que sua renda foi de R$ 5.000,00, ou seja, seu IRD é de R$ 1375,00), há um saldo a pagar: dizemos que você tem IR a pagar de 375,00. Caso você tenha pago R$1500,00 durante o ano, há um saldo a receber: dizemos que você tem IR a receber ou, em outras palavras, você tem 125,00 de restituição."
+            android:textSize="14sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/text_margin"
+            android:layout_marginRight="@dimen/text_margin"
+            android:layout_marginStart="@dimen/text_margin"
+            android:layout_marginTop="@dimen/text_margin"
+            android:text="- O que é Renúncia Fiscal?"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/text_margin"
+            android:text="É um benefício oferecido pelo Estado, que permite aos contribuintes destinar parte de um imposto que será pago aos cofres públicos para uma área ou projeto específico. As Leis de Incentivo à Cultura, como a Lei Rouanet, são um exemplo conhecido de incentivo fiscal. Por meio delas, são financiados muitos filmes, peças de teatro, espetáculos de dança e música. Os Fundos da Infância e da Adolescência são outro exemplo de mecanismo de renúncia fiscal. O Estado permite às empresas e cidadãos destinarem parte do Imposto de Renda para iniciativas de promoção dos direitos da criança e do adolescente. No caso dos Fundos dos Direitos da Criança e do Adolescente, a renúncia, a renúncia fiscal pode ser de até 6% para pessoas e até 1% para empresas. Cada um dos sistemas de renúncia fiscal é regido por normas específicas, geralmente estabelecidas pela Receita Federal. "
+            android:textSize="14sp" />
+
+
+
+    </LinearLayout>
+
+</android.support.v4.widget.NestedScrollView>

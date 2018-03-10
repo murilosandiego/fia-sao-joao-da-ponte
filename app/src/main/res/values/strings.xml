@@ -1,0 +1,116 @@
+<resources>
+    <string name="app_name">FIA São João da Ponte</string>
+    <string name="action_settings">Sobre este App</string>
+    <string name="title_activity_guia">Guia sobre o FIA</string>
+    <string name="large_text">
+        "Material is the metaphor.\n\n"
+
+        "A material metaphor is the unifying theory of a rationalized space and a system of motion."
+        "The material is grounded in tactile reality, inspired by the study of paper and ink, yet "
+        "technologically advanced and open to imagination and magic.\n"
+        "Surfaces and edges of the material provide visual cues that are grounded in reality. The "
+        "use of familiar tactile attributes helps users quickly understand affordances. Yet the "
+        "flexibility of the material creates new affordances that supercede those in the physical "
+        "world, without breaking the rules of physics.\n"
+        "The fundamentals of light, surface, and movement are key to conveying how objects move, "
+        "interact, and exist in space and in relation to each other. Realistic lighting shows "
+        "seams, divides space, and indicates moving parts.\n\n"
+
+        "Bold, graphic, intentional.\n\n"
+
+        "The foundational elements of print based design typography, grids, space, scale, color, "
+        "and use of imagery guide visual treatments. These elements do far more than please the "
+        "eye. They create hierarchy, meaning, and focus. Deliberate color choices, edge to edge "
+        "imagery, large scale typography, and intentional white space create a bold and graphic "
+        "interface that immerse the user in the experience.\n"
+        "An emphasis on user actions makes core functionality immediately apparent and provides "
+        "waypoints for the user.\n\n"
+
+        "Motion provides meaning.\n\n"
+
+        "Motion respects and reinforces the user as the prime mover. Primary user actions are "
+        "inflection points that initiate motion, transforming the whole design.\n"
+        "All action takes place in a single environment. Objects are presented to the user without "
+        "breaking the continuity of experience even as they transform and reorganize.\n"
+        "Motion is meaningful and appropriate, serving to focus attention and maintain continuity. "
+        "Feedback is subtle yet clear. Transitions are efﬁcient yet coherent.\n\n"
+
+        "3D world.\n\n"
+
+        "The material environment is a 3D space, which means all objects have x, y, and z "
+        "dimensions. The z-axis is perpendicularly aligned to the plane of the display, with the "
+        "positive z-axis extending towards the viewer. Every sheet of material occupies a single "
+        "position along the z-axis and has a standard 1dp thickness.\n"
+        "On the web, the z-axis is used for layering and not for perspective. The 3D world is "
+        "emulated by manipulating the y-axis.\n\n"
+
+        "Light and shadow.\n\n"
+
+        "Within the material environment, virtual lights illuminate the scene. Key lights create "
+        "directional shadows, while ambient light creates soft shadows from all angles.\n"
+        "Shadows in the material environment are cast by these two light sources. In Android "
+        "development, shadows occur when light sources are blocked by sheets of material at "
+        "various positions along the z-axis. On the web, shadows are depicted by manipulating the "
+        "y-axis only. The following example shows the card with a height of 6dp.\n\n"
+
+        "Resting elevation.\n\n"
+
+        "All material objects, regardless of size, have a resting elevation, or default elevation "
+        "that does not change. If an object changes elevation, it should return to its resting "
+        "elevation as soon as possible.\n\n"
+
+        "Component elevations.\n\n"
+
+        "The resting elevation for a component type is consistent across apps (e.g., FAB elevation "
+        "does not vary from 6dp in one app to 16dp in another app).\n"
+        "Components may have different resting elevations across platforms, depending on the depth "
+        "of the environment (e.g., TV has a greater depth than mobile or desktop).\n\n"
+
+        "Responsive elevation and dynamic elevation offsets.\n\n"
+
+        "Some component types have responsive elevation, meaning they change elevation in response "
+        "to user input (e.g., normal, focused, and pressed) or system events. These elevation "
+        "changes are consistently implemented using dynamic elevation offsets.\n"
+        "Dynamic elevation offsets are the goal elevation that a component moves towards, relative "
+        "to the component’s resting state. They ensure that elevation changes are consistent "
+        "across actions and component types. For example, all components that lift on press have "
+        "the same elevation change relative to their resting elevation.\n"
+        "Once the input event is completed or cancelled, the component will return to its resting "
+        "elevation.\n\n"
+
+        "Avoiding elevation interference.\n\n"
+
+        "Components with responsive elevations may encounter other components as they move between "
+        "their resting elevations and dynamic elevation offsets. Because material cannot pass "
+        "through other material, components avoid interfering with one another any number of ways, "
+        "whether on a per component basis or using the entire app layout.\n"
+        "On a component level, components can move or be removed before they cause interference. "
+        "For example, a floating action button (FAB) can disappear or move off screen before a "
+        "user picks up a card, or it can move if a snackbar appears.\n"
+        "On the layout level, design your app layout to minimize opportunities for interference. "
+        "For example, position the FAB to one side of stream of a cards so the FAB won’t interfere "
+        "when a user tries to pick up one of cards.\n\n"
+    </string>
+    <string name="title_activity_eca">Como Doar?</string>
+    <string name="title_activity_legislacao">Plano Municipal</string>
+    <string name="title_activity_projetos">Projetos</string>
+    <string name="title_activity_duvida">Dúvidas</string>
+    <string name="sobre_fia">
+        O Fundo da Infância e da Adolescência – FIA, autorizado pela Lei Federal 8.069/1990, foi criado para captar recursos destinados ao atendimento de políticas, programas e ações voltadas para a proteção pessoal e social de crianças e adolescentes em situação de vulnerabilidade."\n\n"
+        Constitui-se num Fundo Especial, conforme preceitua a Lei Federal 4320/64, art. 71, sendo"produto de receitas especificadas que, por lei, se vinculam à realização de determinados objetivos ou serviços, facultada à adoção de normas peculiares de aplicação"
+
+    </string>
+    <string name="title_activity_simulador">Simulador</string>
+
+    <string name="title_activity_fullscreen">FullscreenActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="introducao_primeira">O município de São João da Ponte tem aproximadamente 26.000 habitantes. Possui uma rede de serviço muito amplo como: Escolas, Creches, Unidades básicas de saúde, NASF, Saúde da Família, CAPS, Núcleo de Atenção à Criança e Adolescente-NACA, Conselho Tutelar e Conselheiros Municipais, atuantes e participativos, além dos serviços, programas e projetos sociais ofertados pela Secretaria de Assistência Social através do CRAS (Centro de Referencia da Assistência Social), e CREAS (Centro de Referencia Especializado de Assistência Social).\n\nA estruturação deste Plano, reflete o compromisso de oferecer prioridades a temática Criança/Adolescente, com vistas à formulação e implementação de políticas públicas que assegurem a garantia dos direitos da criança e adolescente de forma integrada e articulada dentro da perspectiva da proteção integral. Rompendo assim, com a cultura da institucionalização e fortalecendo o paradigma da proteção integral e preservação de violações de direitos da criança e adolescente e dos vínculos familiares e comunitários.\n\nTanto o CONANDA quanto o CNAS afirmam que esses direitos serão garantidos com a interação de todas as políticas sociais, com centralidade na família para o acesso a serviços de educação, saúde, geração de trabalho e renda dentre outras, possam ser eficazes de forma planejada e continuada.\n\nNeste sentido, o presente Plano requer ações transversais e Inter setoriais em consonância com o poder Público, Sociedade e iniciativa Privada para que possa pensar no atendimento humano integral, por serem seres em desenvolvimento e sujeitos de direitos que requer políticas públicas articuladas com vistas à plena garantia dos direitos e principalmente na prevenção ao rompimento dos vínculos familiares e caso esgotado todas as possibilidades, priorizarem o retorno ao convívio familiar de origem.\n\nVale ressaltar que este Plano foi construído sobre os direitos da convivência familiar fazendo um resgate histórico desde o Código de Menores até a Criação do Estatuto da Criança e do Adolescente-ECA, conforme Lei nº 8.069 de 1990.</string>
+    <string name="inttroducao_segunda">O presente Plano Municipal visa a arrecadação através de dedução de imposto de renda de pessoas físicas e jurídicas, estabelecendo uma Política Municipal voltada para a Criança e Adolescente referente ao período de 2017 a 2018.</string>
+    <string name="introducao_terceira">Assim, a Administração Tempo de Reconstruir, a Secretaria Municipal de Assistência Social e o Conselho Municipal dos Direitos da Criança e do Adolescente - CMDCA, juntamente com órgão gestor da Secretaria de Assistência Social e conselheiros municipais vem através deste plano, PLEITEAR RECURSOS para que a rede de serviços que atende crianças e adolescentes seja capaz de atender com qualidade as demandas.\n\nTais recursos referem-se à citada dedução e serão recebidos por meio do FIA (Fundo para Infância e Adolescência), que estabelece políticas voltadas à promoção de atividades desenvolvidas pelas instituições filiadas, que atendem exclusivamente crianças e adolescentes carentes de nosso município, como o Núcleo de Atenção a Crianças e Adolescente-NACA, Creche Dom Geraldo Magela (ROTARY CLUB), Associação Liga de Esporte Pontense – ALEP e Obra Social do Educandário Senhora das Graças (Creche das irmãs).</string>
+    <string name="introducao_quarta">Como exemplo da importância da destinação destes recursos, importante frisar que no ano de 2017, pela primeira vez em nosso município, foi feito o direcionamento dos valores arrecadados diretamente às citadas entidades, conforme descrito abaixo:</string>
+    <string name="introducao_quinta">Nesse sentido, baseado na Constituição Federal de 1988, Estatuto da Criança e do Adolescente, Plano Nacional de Promoção, Proteção e Defesa do Direito de Crianças e Adolescentes à Convivência Familiar e Comunitária, Tipificação Nacional dos Serviços Socioassistenciais, LOAS, Política Nacional de Assistência Social, Sistema único de Assistência Social e Estatuto da Criança e Adolescente, é que se propõe o presente Projeto de arrecadação.\n\nPara tanto, quando da realização da declaração do Imposto de Renda, o contribuinte declarante ou o contador de sua confiança deverá indicar a doação para o presente fundo, sendo que os valores doados constituirão parcela dedutível para abatimento no valor a ser pago. Abaixo os dados bancários necessários a efetivação da doação</string>
+    <string name="numero_conta">FUNDO DA INFÂNCIA E ADOLESCÊNCIA.\nBANCO DO BRASIL\nAGÊNCIA: 2634-4\nCONTA CORRENTE: 14501-7\nFUNDO MUNICIPAL DOS DIREITOS DA CRIANCA E DO ADOLESCENTE\nCNPJ: 17.857.851/0001-58\nEndereço: Rua: Honorato Campos, 110- Centro</string>
+    <string name="doacao">Passo 1 - Calcular o valor máximo de sua destinação. Como acima referido, para pessoa física, o valor máximo dedutível é de 6% (seis por cento) do Imposto de Renda Devido. Para empresas, tal valor é 1% (um por cento) do Imposto de Renda Devido. E lembre-se, apenas os optantes pelo Formulário Completo e empresas que adotam o Regime de Lucro Real podem usufruir da renúncia fiscal. A doação é também possível no ato da declaração, mas neste caso, apenas para pessoas físicas, que poderão deduzir integralmente doações que não ultrapassem o montante de 3% (três por cento) do Imposto de Renda Devido. Qualquer valor excedente a este percentual poderá ser deduzido quando da declaração de imposto de renda no próximo ano, desde que, somadas outras doações, não ultrapasse o montante de 6% (seis por cento) do imposto de renda devido. Passo 2 - Escolher o Fundo dos Direitos da Criança e do Adolescente para o qual você destinará os recursos. Na página do Ministério Público do Estado do Paraná há um link para doação ao Fundo Estadual dos Direitos da Criança e do Adolescente. Para doação ao Fundo Municipal, procure o Conselho Municipal dos Direitos da Criança e do Adolescente, o Conselho Tutelar ou a Prefeitura Municipal (vale registrar, no entanto, que nem todos os municípios possuem Fundos operacionais). Passo 3 - Depositar o valor na conta do Fundo. Os depósitos deverão ser efetuados até o último dia fixado para entrega das declarações de imposto de renda pela Receita Federal (previsto no ano de 2018 para o dia 30 de abril). Para fazer o depósito, são necessários os dados da conta bancária e o CNPJ a que a conta está vinculada. O CNPJ também será importante na hora de preencher a Declaração de Imposto de Renda. Antes de efetuar o depósito, faça um contato com o Conselho de Direitos da Criança e do Adolescente responsável pelo Fundo para confirmar os dados. No Conselho, você também pode se informar sobre como o recurso será investido. Passo 4 - Fazer contato com o Conselho dos Direitos da Criança e do Adolescente e solicitar o recibo da doação. Para isso, informe seu dados (nome, endereço completo, valor do depósito e CPF). Este recibo será o comprovante da destinação junto à Receita Federal. Passo 5 - Ao preencher sua Declaração de Imposto de Renda, informe a destinação realizada ao Fundo. Há um campo no formulário onde você deverá informar a data, o valor e o CNPJ do Fundo onde recurso foi depositado. Assim que os dados forem inseridos, o próprio programa da Receita Federal já considera, automaticamente, a renúncia fiscal.</string>
+    <string name="como_doar_passo1">Calcular o valor máximo de sua destinação.\n\nFAÇA ESSE CÁLCULO ATRAVÉS DO NOSSO SIMULADOR ENCONTRADO NA TELA ANTERIOR.\n\nO valor máximo dedutível é de 6% (seis por cento) do Imposto de Renda Devido. Para empresas, tal valor é 1% (um por cento) do Imposto de Renda Devido. E lembre-se, apenas os optantes pelo Formulário Completo e empresas que adotam o Regime de Lucro Real podem usufruir da renúncia fiscal. A doação é também possível no ato da declaração, mas neste caso, apenas para pessoas físicas, que poderão deduzir integralmente doações que não ultrapassem o montante de 3% (três por cento) do Imposto de Renda Devido. Qualquer valor excedente a este percentual poderá ser deduzido quando da declaração de imposto de renda no próximo ano, desde que, somadas outras doações, não ultrapasse o montante de 6% (seis por cento) do imposto de renda devido.</string>
+</resources>

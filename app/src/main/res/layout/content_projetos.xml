@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="br.com.murilosandiego.fiasaojooadaponte.ProjetosActivity"
+    tools:showIn="@layout/activity_projetos">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/text_margin"
+            android:layout_marginRight="@dimen/text_margin"
+            android:layout_marginStart="@dimen/text_margin"
+            android:layout_marginTop="@dimen/text_margin"
+            android:text="Casa da Amizade  e  Creche Dom Geraldo Magela de Castro"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/text_margin"
+            android:text="A Casa da Amizade foi fundada em 10 de abril de 1987, iniciaram sua atividades prestando assistência a crianças do nosso município, com alimentação, palestras de higiene, boas maneiras, saúde e educação religiosa. Atualmente e creche Dom Geraldo Magela oferece educação Infantil da primeira etapa da educação básica , sendo maternal, 1º e 2º períodos, em regime de 04 horas, funcionando em dois turno, com atendimentos de 100 alunos, proporcionando ensino gratuito e de qualidade, assegurando-lhe a formação comum indispensável para o exercício da cidadania e preparando para prosseguir os estudos. O público preferencial a ser atendidos com vagas na Creche Dom Geraldo Magela de Castro será os alunos oriundos de famílias que estão em situação de vulnerabilidade e ou risco Social"
+            android:textSize="14sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/text_margin"
+            android:layout_marginRight="@dimen/text_margin"
+            android:text="Obra Social do Educandário Senhora das Graças"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/text_margin"
+            android:text="Entidade Filantrópica fundada em 16 de Setembro de 1978, em São João da Ponte - MG, tem como finalidade dar Assistência Educativa e alimentar as crianças carentes, bem com as suas famílias e incentivar a promoção humana na área da Educação Infantil, com crianças de baixa rende de 0 a 06 anos. A entidade dar também orientação Humana e Cristã as famílias das crianças beneficiárias e pessoas da comunidade. Atualmente atende 75 crianças"
+            android:textSize="14sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/text_margin"
+            android:layout_marginRight="@dimen/text_margin"
+            android:text="Escolinha de Futebol Criança Feliz"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/text_margin"
+            android:text="A ESCOLINHA DE FUTEBOL CRIANÇA FELIZ  criada em 2007 pela diretoria da Liga de Esporte Pontense, dentro da legalidade, junto com desportistas e incentivadores do nosso Esporte, com o intuito de organizar e acompanhar nossas crianças no meio social, participando da vida educacional e orientá-las para a pratica do Esporte prazeroso e saudável, e quem sabe, contribuir para a formação de atletas amadores, semi-profissionais, não-profissionais e profissionais que possam representar nossa cidade no meio esportivo Municipal, Estadual, Nacional ou Internacional. São atendidas atualmente 200 crianças com idade de 06 a 15 anos, do sexo masculino do município de São João da Ponte. A única exigência para participação das Crianças e Adolescentes na ESCOLINHA, é que todas estejam estudando."
+            android:textSize="14sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/text_margin"
+            android:layout_marginRight="@dimen/text_margin"
+            android:text="NACA - Núcleo de Atenção a Criança e ao Adolescente"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/text_margin"
+            android:text="Fundado no ano de 2008 o Núcleo de Atenção a Criança e ao Adolescente  - NACA de São João da Ponte - MG, tem com objetivo de inserir crianças e no contexto social, ético, cultural e moral onde proporciona Educação Básica e também Cursos Técnicos.  O NACA também cria ambientes para Crianças e Adolescente a fim de que , desperte para o senso de solidariedade e cidadania no resgate de auto-estima, com atividade profissionalizantes, na promoção humanas do bem estar social e na integração familiar á sociedade, além de ajudá-los a descobrir suas potencialidades físicas, profissionais e intelectuais garantindo-os, assim, oportunidades de trabalho advindas das atividades. Atualmente atende 100 crianças e adolescentes com atividades de artesanatos, aula de música, violão, teclado, trabalho com lúdico, pintura em tecido e tela, teatro etc."
+            android:textSize="14sp" />
+
+
+
+
+    </LinearLayout>
+
+</android.support.v4.widget.NestedScrollView>

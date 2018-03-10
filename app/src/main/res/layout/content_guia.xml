@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="br.com.murilosandiego.fiasaojooadaponte.GuiaActivity"
+    tools:showIn="@layout/activity_guia">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/text_margin"
+            android:layout_marginRight="@dimen/text_margin"
+            android:layout_marginStart="@dimen/text_margin"
+            android:layout_marginTop="@dimen/text_margin"
+            android:text="O que é o FIA e qual sua finalidade?"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/text_margin"
+            android:text="@string/sobre_fia"
+            android:textSize="14sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/text_margin"
+            android:layout_marginRight="@dimen/text_margin"
+            android:text="O que é o Fundo para Infância e Adolescência - FIA?"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/text_margin"
+            android:text="É um Fundo Público que tem como objetivo financiar projetos que atuem na garantia da promoção, proteção e defesa dos direitos da criança e do adolescente. Os recursos são aplicados exclusivamente nesta área com monitoramento do Conselho Municipal dos Direitos da Criança e do Adolescente - CMDCA.
+
+Os contribuintes podem fazer doações para o Fundo para Infância e Adolescência - FIA direto da Declaração de Ajuste Anual do Imposto de Renda.
+
+Sim. Os contribuintes podem destinar até 3% do imposto devido ao Fundo para Infância e Adolescência - FIA e durante o preenchimento da Declaração de Ajuste Anual do Imposto de Renda. O pagamento da DARF referente à doação deve ser efetuado até o último dia útil de abril."
+            android:textSize="14sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/text_margin"
+            android:layout_marginRight="@dimen/text_margin"
+            android:text="Quem pode doar?"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/text_margin"
+            android:text="Os contribuintes que optarem pelo modelo completo da Declaração do Imposto de Renda. "
+            android:textSize="14sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/text_margin"
+            android:layout_marginRight="@dimen/text_margin"
+            android:text="Qual o limite para a doação? "
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/text_margin"
+            android:text="As doações realizadas no momento da Declaração de Ajuste Anual do Imposto de Renda poderão ser deduzidas até o percentual de 3% sobre o imposto devido apurado na declaração. A dedução está sujeita ao limite global de 6% (seis por cento) do imposto devido apurado na declaração, juntamente com as demais deduções de incentivo (como Fundo do Idoso e de Incentivo à Cultura)."
+            android:textSize="14sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/text_margin"
+            android:layout_marginRight="@dimen/text_margin"
+            android:text="Qual a vantagem de realizar a doação diretamente da Declaração do Imposto de Renda?"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/text_margin"
+            android:text="Os contribuintes têm maior autonomia sobre a destinação do imposto de renda. Dessa forma, podem decidir se parte do imposto devido será destinado à Receita Federal ou para o financiamento de projetos de atendimento à população infanto juvenil."
+            android:textSize="14sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/text_margin"
+            android:layout_marginRight="@dimen/text_margin"
+            android:text="A doação representa um gasto adicional para o contribuinte?"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/text_margin"
+            android:text="Não. A doação representa a destinação de uma parcela do imposto devido à Receita Federal para o FIA. Dessa forma, quem optar pela doação terá redução no valor do imposto a pagar ou aumento na restituição."
+            android:textSize="14sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/text_margin"
+            android:layout_marginRight="@dimen/text_margin"
+            android:text="Se eu já enviei a Declaração de Ajuste Anual de Imposto de Renda, ainda posso doar?"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/text_margin"
+            android:text="Sim. É possível retificar a Declaração de Ajuste Anual de Imposto de Renda para realizar sua doação."
+            android:textSize="14sp" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/text_margin"
+            android:layout_marginRight="@dimen/text_margin"
+            android:text="Se eu doei durante o ano, quais os procedimentos para realizar a dedução na Declaração de Ajuste Anual de Imposto de Renda? "
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/text_margin"
+            android:text="As Pessoas Físicas podem destinar, desde que optem pelo modelo completo da declaração, até 6% do valor do imposto devido para as doações realizadas durante o Ano-Calendário da Declaração de Ajuste Anual. Já Pessoas Jurídicas, podem deduzir até o limite de 1% do imposto calculado pelo lucro real. O montante doado durante o ano-base da Declaração de Imposto de Renda deverá ser informado em campo “Doações Efetuadas” no programa de Declaração de Ajuste Anual de Imposto de Renda. Os contribuintes podem efetuar as doações em qualquer período do ano por meio do pagamento de uma Guia de Recolhimento da União (GRU) ou transferência bancária (TED ou DOC) para a conta corrente do CMDCA"
+            android:textSize="14sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/text_margin"
+            android:layout_marginRight="@dimen/text_margin"
+            android:text="Como é utilizada a verba arrecadada? "
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/text_margin"
+            android:text="Os recursos do fundo são utilizados para a implementação da política de promoção, defesa e proteção dos direitos da criança e adolescente em conformidade com as diretrizes formalmente deliberadas pelo Conselho Municipal dos Direitos da Criança e do Adolescente - CMDCA. "
+            android:textSize="14sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/text_margin"
+            android:layout_marginRight="@dimen/text_margin"
+            android:text="Quais as instituições que podem ser beneficiadas pelos recursos do Fundo? "
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/text_margin"
+            android:text="Podem ser beneficiadas com os recursos as instituições que atuam com a promoção, proteção e defesa dos direitos da criança e do adolescente que tiverem seus projetos aprovados pelo Conselho de Direitos da Criança e do Adolescente. Entidades da sociedade civil organizada deverão ainda ter seus projetos aprovados em conformidade com critérios específicos constantes em edital de chamamento público próprio. "
+            android:textSize="14sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/text_margin"
+            android:layout_marginRight="@dimen/text_margin"
+            android:text="Qual a finalidade do FIA?"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/text_margin"
+            android:text="O FIA tem por objetivo captar e aplicar recursos destinados às ações de atendimento à criança e ao adolescente. As ações destinam-se a Programas de Proteção Especial à criança e ao adolescente expostos à situação de risco pessoal e social e, excepcionalmente, a projetos de assistência social para crianças e adolescentes que delas necessitem, a serem realizados em caráter supletivo, em atendimento às deliberações do Conselho Estadual da Criança e do Adolescente."
+            android:textSize="14sp" />
+
+
+
+    </LinearLayout>
+
+
+</android.support.v4.widget.NestedScrollView>
