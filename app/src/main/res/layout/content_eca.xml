@@ -62,7 +62,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_margin="@dimen/text_margin"
-            android:text="Depositar o valor na conta do Fundo (ABAIXO VOCÊ ENCONTRA OS DADOS DA CONTA BANCÁRIA). Os depósitos deverão ser efetuados até o último dia fixado para entrega das declarações de imposto de renda pela Receita Federal (previsto no ano de 2018 para o dia 30 de abril). Para fazer o depósito, são necessários os dados da conta bancária e o CNPJ a que a conta está vinculada. O CNPJ também será importante na hora de preencher a Declaração de Imposto de Renda. Antes de efetuar o depósito, faça um contato com o Conselho de Direitos da Criança e do Adolescente responsável pelo Fundo para confirmar os dados. No Conselho, você também pode se informar sobre como o recurso será investido. " />
+            android:text="Depositar o valor na conta do Fundo (ABAIXO VOCÊ ENCONTRA OS DADOS DA CONTA BANCÁRIA). Os depósitos deverão ser efetuados até o último dia fixado para entrega das declarações de imposto de renda pela Receita Federal (previsto no ano de 2019 para o dia 28 de abril). Para fazer o depósito, são necessários os dados da conta bancária e o CNPJ a que a conta está vinculada. O CNPJ também será importante na hora de preencher a Declaração de Imposto de Renda. Antes de efetuar o depósito, faça um contato com o Conselho de Direitos da Criança e do Adolescente responsável pelo Fundo para confirmar os dados. No Conselho, você também pode se informar sobre como o recurso será investido. " />
 
 
         <TextView
